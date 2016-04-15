@@ -1,6 +1,12 @@
 <h1 class="text-center">Welcome to Pinteresting</h1>
 <div class="jumbotron center">
 	<p><i>Our site is currently under development</i></p>
-	<p>Be sure to check back within <%= link_to "one month", "http://onemonth.com" %> and <%= link_to "Sign up", "#", class: "btn btn-primary btn-large"%> to be a beta-tester</p>
-	<p>Beta-tester <%= link_to "Login", "#", class: "btn btn-default btn-large"%>
+
+	<% if user_signed_in? %>
+		#do something
+	<% else %>
+		<p>Be sure to check back within <%= link_to "one month", "http://onemonth.com" %> and <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-large"%> to be a beta-tester</p>
+		<p>Beta-tester <%= link_to "Login", new_user_session_path, class: "btn btn-default btn-large"%>	
+	<% end %>	
+
 </div>
