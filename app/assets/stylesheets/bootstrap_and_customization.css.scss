@@ -1,16 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+//@import 'bootstrap';
 @import 'bootstrap-sprockets';
-@import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
-$body-bg: #ecf0f1;
-$navbar-inverse-bg: #c0392b;
-$navbar-inverse-link-color: white;
-$brand-primary: #c0392b;
-$jumbotron-bg: #bdc3c7;
-$font-family-sans-serif: 'Roboto';
 
-@import 'bootstrap';
+
+//$font-family-sans-serif: 'Roboto';
 
 .center {
 	text-align: center;
@@ -19,3 +14,10 @@ $font-family-sans-serif: 'Roboto';
 .navbar-brand{
 	font-weight: bold;
 }
+
+$body-bg: #aaaaaa;
+$navbar-bg: #aaaaaa;
+$navbar-link-color: #aaaaaa;
+$brand-primary: #aaaaaa;
+$jumbotron-bg: #bdc3c7;
+$background-color: #fff;
