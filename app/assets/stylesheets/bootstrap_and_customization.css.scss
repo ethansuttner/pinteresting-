@@ -3,7 +3,12 @@
 @import 'bootstrap-sprockets';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
-
+$body-bg: #aaaaaa;
+$navbar-bg: #aaaaaa;
+$navbar-link-color: #aaaaaa;
+$brand-primary: #aaaaaa;
+$jumbotron-bg: #bdc3c7;
+$background-color: #fff;
 
 //$font-family-sans-serif: 'Roboto';
 
@@ -14,10 +19,3 @@
 .navbar-brand{
 	font-weight: bold;
 }
-
-$body-bg: #aaaaaa;
-$navbar-bg: #aaaaaa;
-$navbar-link-color: #aaaaaa;
-$brand-primary: #aaaaaa;
-$jumbotron-bg: #bdc3c7;
-$background-color: #fff;
